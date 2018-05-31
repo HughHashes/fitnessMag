@@ -12,13 +12,13 @@
     <title>Modern Business - Start Bootstrap Template</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/modern-business.css" rel="stylesheet">
+    <link href="../css/modern-business.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="../font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -59,7 +59,7 @@
                     <li class="dropdown active">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio <b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                            <li class="active">
+                            <li>
                                 <a href="portfolio-1-col.html">1 Column Portfolio</a>
                             </li>
                             <li>
@@ -71,7 +71,7 @@
                             <li>
                                 <a href="portfolio-4-col.html">4 Column Portfolio</a>
                             </li>
-                            <li>
+                            <li class="active">
                                 <a href="portfolio-item.html">Single Portfolio Item</a>
                             </li>
                         </ul>
@@ -123,137 +123,96 @@
         <!-- Page Heading/Breadcrumbs -->
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">Fashion
-                    <small>Fitness</small>
+                <h1 class="page-header">Easy Recipes To Make
+                    <small>By:Jaiana Dixon</small>
                 </h1>
                 <ol class="breadcrumb">
                     <li><a href="index.html">Home</a>
                     </li>
-                    <li class="active">Fashion</li>
+                    <li class="active">Recipes</li>
                 </ol>
             </div>
         </div>
         <!-- /.row -->
 
-        <!-- Project One -->
-        <div class="row">
-            <div class="col-md-7">
-                <a href="portfolio-item.html">
-                    <img class="img-responsive img-hover" src="Photos/tinker (1) (1).jpg" alt="">
-                </a>
-            </div>
-            <div class="col-md-5">
-                <h3>Did Tinker Hatfield Save Nike’s Design?</h3>
-                <h4>Fashion</h4>
-                <p>Since the late 20th century, Nike a fitness brand,  has become synonymous with basketball, revolutionary design, Michael Jordan, and overall urban culture. Who was the man who changed Nike from near bankruptcy to a household name within a decade? This is the story of Tinker Hatfield and Nike, and how he changed the way we think about design shoes.</p>
-                <a class="btn btn-primary" href="fashion/Article 1/Article 1.1.html">View Article</i></a>
-            </div>
-        </div>
-        <!-- /.row -->
-
-        <hr>
-
-        <!-- Project Two -->
-        <div class="row">
-            <div class="col-md-7">
-                <a href="portfolio-item.html">
-                    <img class="img-responsive img-hover" src="http://placehold.it/700x300" alt="">
-                </a>
-            </div>
-            <div class="col-md-5">
-                <h3>Project Two</h3>
-                <h4></h4>
-                <p></p>
-                <a class="btn btn-primary" href="portfolio-item.html">View Article</i></a>
-            </div>
-        </div>
-        <!-- /.row -->
-
-        <hr>
-
-        <!-- Project Three -->
-        <div class="row">
-            <div class="col-md-7">
-                <a href="portfolio-item.html">
-                    <img class="img-responsive img-hover" src="http://placehold.it/700x300" alt="">
-                </a>
-            </div>
-            <div class="col-md-5">
-                <h3>Project Three</h3>
-                <h4>Subheading</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, temporibus, dolores, at, praesentium ut unde repudiandae voluptatum sit ab debitis suscipit fugiat natus velit excepturi amet commodi deleniti alias possimus!</p>
-                <a class="btn btn-primary" href="portfolio-item.html">View Project</i></a>
-            </div>
-        </div>
-        <!-- /.row -->
-
-        <hr>
-
-        <!-- Project Four -->
+        <!-- Portfolio Item Row -->
         <div class="row">
 
-            <div class="col-md-7">
-                <a href="portfolio-item.html">
-                    <img class="img-responsive img-hover" src="http://placehold.it/700x300" alt="">
-                </a>
+            <div class="col-md-8">
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img class="img-responsive" src="recipes.jpg" alt="">
+                        </div>
+                        <div class="item">
+                            <img class="img-responsive" src="recipes2.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+                </div>
             </div>
-            <div class="col-md-5">
-                <h3>Project Four</h3>
-                <h4>Subheading</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, quidem, consectetur, officia rem officiis illum aliquam perspiciatis aspernatur quod modi hic nemo qui soluta aut eius fugit quam in suscipit?</p>
-                <a class="btn btn-primary" href="portfolio-item.html">View Project</i></a>
+
+            <div class="col-md-4">
+                <h1>Easy Recipes </h1>
+                <p>There are many different types of easy recipes that children and adults can make who are trying out a vegan/fruit diet.There many other recipes you can do but I chose these two because in these there are many nutrients you get from these two meals Here I am going to tell you 2 different easy recipes that you can make that can help you keep going with diet that you are maybe doing.
+
+<h3>Breakfast Recipe (PB&J SMOOTHIE)</h2>
+Things You need:
+<ul>
+    <li>1 scoop of protein powder</li>
+    <li>¼ cup grape juice</li>
+    <li>1 tablespoon peanut butter</li>
+    <li>1 tablespoon peanut butter</li>
+    <li>½ cup of unsweetened almond milk </li>
+</ul>
+How do You make it:
+<ul>
+<li>Add 1 scoop of protein powder </li>
+<li>Add ¼ cup of grape juice</li>
+<li>Add 1 tablespoon of peanut butter</li>
+<li>Lastly add ½ cup of unsweetened almond milk to the blender</li>
+</ul>
+<p>To make thicker, add ice and to make it sweeter, add some frozen berries or use sweetened almond milk. 
+This meal gives you 21 calories from the Peanut Butter, 115 calories from the protein powder. This is important because it allows you to get calories but not alot that you are messing up your diet.</p> 
+
+<h3>Dinner Recipe (Broiled Italian Salmon)</h2>
+<ul>
+Things you need:
+<li>Olive Oil</li>
+<li>Italian Spices</li>
+<li>Lemon Juice</li>
+</ul>
+<ul>
+How do You make it:
+<il>First you put the salmon into the olive oil that is in the pan</il>
+<li>Then Add a bit of Italian Spices and lemon Juice to a 4-ounce fillet before broiling</li>
+</ul>
+<p>
+Then if you want you can pair it with a baked potato wedges (skin on) for carbs and satiety and a veggie that you have in your fridge for fiber. 
+These two recipes are two of many easy recipes that you could possibly make for you and your family if on a vegan diet. There many other recipes you can do but I chose these two because these are two recipes that I know that a high school student could make and could really understand. 
+</p>
+                
             </div>
+
         </div>
         <!-- /.row -->
-
-        <hr>
-
-        <!-- Project Five -->
-        <div class="row">
-            <div class="col-md-7">
-                <a href="#">
-                    <img class="img-responsive img-hover" src="http://placehold.it/700x300" alt="">
-                </a>
-            </div>
-            <div class="col-md-5">
-                <h3>Project Five</h3>
-                <h4>Subheading</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, quo, minima, inventore voluptatum saepe quos nostrum provident ex quisquam hic odio repellendus atque porro distinctio quae id laboriosam facilis dolorum.</p>
-                <a class="btn btn-primary" href="#">View Project</i></a>
-            </div>
-        </div>
-        <!-- /.row -->
-
-        <hr>
-
-        <!-- Pagination -->
-        <div class="row text-center">
-            <div class="col-lg-12">
-                <ul class="pagination">
-                    <li>
-                        <a href="#">&laquo;</a>
-                    </li>
-                    <li class="active">
-                        <a href="#">1</a>
-                    </li>
-                    <li>
-                        <a href="#">2</a>
-                    </li>
-                    <li>
-                        <a href="#">3</a>
-                    </li>
-                    <li>
-                        <a href="#">4</a>
-                    </li>
-                    <li>
-                        <a href="#">5</a>
-                    </li>
-                    <li>
-                        <a href="#">&raquo;</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
+        <h6> Resources: </h6>
+<a href="https://www.shape.com/healthy-eating/meal-ideas/easy-4-ingredient-recipes-post-workout-muscle-recovery">Easy 4-Ingredient Recipes for Post-Workout Muscle Recovery</a>
         <!-- /.row -->
 
         <hr>
@@ -271,10 +230,10 @@
     <!-- /.container -->
 
     <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+    <script src="../js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
 
 </body>
 

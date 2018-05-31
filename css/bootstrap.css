@@ -6753,5 +6753,11 @@ button.close {
   .hidden-print {
     display: none !important;
   }
+
+#centertext1{
+  text-align: center
+}
+  
+
 }
 /*# sourceMappingURL=bootstrap.css.map */
